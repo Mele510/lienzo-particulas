@@ -12,3 +12,11 @@ Una animación sencilla hecha con **HTML5 Canvas** y JavaScript puro (sin librer
 - HTML5
 - CSS3
 - JavaScript (Vanilla)
+
+## Cómo verlo
+
+No necesitas instalar nada. Solo:
+
+1. Descarga o clona este repositorio.
+2. Abre el archivo `index.html` con doble clic (se abrirá en tu navegador).
+3. Mueve el mouse sobre el lienzo para ver cómo las partículas reaccionan.

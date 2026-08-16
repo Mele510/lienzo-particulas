@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lienzo de Partículas</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: #0b0f19;
+      overflow: hidden;
+    }
+    canvas {
+      display: block;
+    }
+    #info {
+      position: fixed;
+      top: 12px;
+      left: 16px;
+      color: #9fb3ff;
+      font-family: system-ui, sans-serif;
+      font-size: 14px;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <div id="info">Lienzo de Partículas — mueve el mouse ✨</div>
+  <canvas id="lienzo"></canvas>
+  <script src="particulas.js"></script>
+</body>
+</html>
